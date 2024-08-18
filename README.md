@@ -1,3 +1,5 @@
-#IntGrad MT
-This repository is the implementation of _Enhancing LLMs Machine Translation Capabilities with Sentence Interpolation_
-You can see the classes for translation, sentence interpolation and quality estimation.
+# IntGrad MT
+
+This repository contains the implementation of _Enhancing LLMs' Machine Translation Capabilities with Sentence Interpolation._
+You can find classes for translation, sentence interpolation, and quality estimation. 
+In 'run.py,' you can also check the code used to execute tests.
