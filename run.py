@@ -20,8 +20,6 @@ TEST_SETTINGS = {
 LANG_MAP = {
     'ko':'Korean',
     'zh':'Chinese',
-    'de':'German',
-    'hi':'Hindi',
     'sw':'Swahili',
     'be':'Bengali',
     'mr':'Marathi'
@@ -133,7 +131,7 @@ for i, end in tqdm(test_df.iterrows(), total=test_df.shape[0]):
             else:
                 intp_sents = hf_interpolator.interpolate(start_src,end['en'])
 
-        if(key not in intp_n_mt): #Add dictionary if there is no property in intp data
+        if(key not in intp_n_mt): #Add dict if there is no key in intp data
             intp_n_mt[key] = {}
         if(TEST_SETTINGS['intp_model'] not in intp_n_mt[key]):
             intp_n_mt[key][TEST_SETTINGS['intp_model']] = {}

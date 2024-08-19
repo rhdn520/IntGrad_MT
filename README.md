@@ -1,6 +1,6 @@
 # IntGrad MT
 
-This repository contains the implementation of _Enhancing LLMs' Machine Translation Capabilities with Sentence Interpolation._
+This directory contains the implementation of _Enhancing LLMs' Machine Translation Capabilities with Sentence Interpolation._
 
 You can find classes for translation, sentence interpolation, and quality estimation. 
 
